@@ -1,0 +1,331 @@
+@media screen and (max-width: 800px) {
+    header {
+        padding: 15px 35px;
+    }
+
+    header nav ul {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 50vw;
+        height: 80vh;
+        background-color: var(--bg-white);
+        flex-direction: column;
+        display: none;
+        transition: 0.4s ease-in-out;
+        gap: 30px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    header nav.active ul {
+        display: flex;
+    }
+
+    header nav .hamburger {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    header nav .hamburger::before {
+        content: "";
+        position: absolute;
+        width: 28px;
+        height: 2.5px;
+        background-color: #2d2e32;
+        transform: translateY(-9px);
+        box-shadow: 0 18px 0 #2d2e32;
+        transition: 0.3s ease;
+        border-radius: 5px;
+    }
+
+    header nav.active .hamburger::before {
+        transform: translateY(0) rotate(46deg);
+        box-shadow: 0 0 0 #fff;
+    }
+
+    header nav .hamburger::after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 2.5px;
+        background-color: #2d2e32;
+        transition: 0.4s ease;
+        border-radius: 5px;
+    }
+
+    header nav.active .hamburger::after {
+        content: "";
+        position: absolute;
+        width: 28px;
+        height: 2.5px;
+        background-color: #2d2e32;
+        transform: translateY(0) rotate(-46deg);
+    }
+
+    /* ====================================== */
+
+    .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        flex-direction: column;
+        padding: 18px;
+    }
+
+    .first-content {
+        width: 100%;
+        height: 50%;
+        border-radius: 30px;
+    }
+
+    .back-pic {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .back-pic img {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        object-fit: cover;
+    }
+
+    .back-pic .animated-coder {
+        position: absolute;
+        bottom: -2.2rem;
+        right: 0;
+        width: 160px;
+        height: 160px;
+        background-color: var(--bg-white);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .animated-coder .logo .code-img {
+        width: 60px;
+    }
+
+    .text img {
+        width: 150px;
+        animation: animateimg 9s linear infinite;
+    }
+
+    .second-content {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .second-content h3, h2, p{
+        text-align: center;
+    }
+
+    /* ====================================== */
+
+
+    /* =============PROJECTS CONTAINER================ */
+
+
+    .project-content .project-grid .pro {
+        background-color: #fff;
+        border-radius: 1.7rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .project-content .project-grid .card-1 {
+        flex-direction: column;
+        gap: 5rem;
+        min-height: 25rem;
+        padding: 1.5rem;
+    }
+    .project-content .project-grid .card-1 .pro-img {
+        
+        width: 90%;
+    }
+    .project-content .project-grid .card-1 .pro-text {
+        width: 90%;
+    }
+
+    .project-content>p {
+        text-align: center;
+    }
+    
+    .project-content>h3 {
+        text-align: center;
+    }
+
+    /* ===============CONTACT MEDIA DESIGN==================== */
+    .contact-content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-content .heads > h3{
+        text-align: center;
+    }
+    .contact-content .heads > h1{
+        text-align: center;
+    }
+
+    .details{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .location, .mail{
+        flex-direction: column;
+    }
+
+
+
+    
+}
+
+
+@media screen and (max-width: 1030px) {
+    .container {
+        margin: 0 auto;
+        width: 100vw;
+        padding: 0 2rem;
+    }
+
+    .home-main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 1.5rem 0;
+        gap: 2rem;
+    }
+
+    .home-main .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-main .info h1 {
+        text-align: center;
+    }
+
+    .home-main .info h1 img {
+        text-align: center;
+    }
+
+    .home-main .info p {
+        text-align: center;
+    }
+
+    .container .content {
+        gap: 3rem;
+    }
+
+    .content .skills {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .content .skills p {
+        text-align: center;
+        border-right: none;
+        border-bottom: 2px solid #858585;
+        padding-right: 0;
+    }
+
+    .content .skills .skills-logos ul {
+        justify-content: center;
+    }
+
+    /* ======================================= */
+
+
+
+
+    /* ======================================= */
+
+
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .home-main .profile {
+        width: 250px;
+        height: 250px;
+    }
+
+    .home-main .info {
+        max-width: 35rem;
+    }
+
+    .home-main .info h1 {
+        font-size: 2.4rem;
+        text-align: center;
+        font-weight: 800;
+
+    }
+
+    .home-main .info h1 img {
+        width: 50px;
+        transform: translateY(10px);
+    }
+
+    .home-main .info p {
+        color: #555;
+        font-family: Mulish, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.6;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .foot-content{
+        flex-direction: column;
+    }
+    .foot-content .f-cont h1{
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.6rem;
+        font-weight:800;
+    }
+    .foot-content .s-cont ion-icon{
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .home-main .info h1 {
+        font-size: 2.5rem;
+    }
+}
+
