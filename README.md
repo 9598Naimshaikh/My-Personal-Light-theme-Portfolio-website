@@ -5,5 +5,5 @@ HI, Developers here i created my Personal Portfolio website using HTML, CSS, Jav
 <img width="1885" height="776" alt="image" src="https://github.com/user-attachments/assets/39aa7903-bf7d-4f9a-9238-8fa82635a1b5" />
 <img width="1874" height="766" alt="image" src="https://github.com/user-attachments/assets/16c885cc-c9ad-49ba-a35a-8c411f9c0659" />
 <img width="1892" height="653" alt="image" src="https://github.com/user-attachments/assets/3e67c091-14a5-48d5-8021-0726b2d49285" />
-<img width="1892" height="653" alt="image" src="https://github.com/user-attachments/assets/6e6aada6-1174-40d1-ae5d-3eb5c20db9db" />
+
 
